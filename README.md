@@ -13,7 +13,7 @@ Ce dispositif est également sonorisé pour permetre de diffuser un message audi
 Le système fonctionne ainsi :
 
 | Couleur de la LED | Niveau sonore | Signification du Niveau Sonore |
-|-------------------|-------------------------------|
+|-------------------|---------------|--------------------------------|
 | Vert | > 80dB | Niveau sonore calme / acceptable |
 | Orange | < 80dB |  Niveau sonore élevé | 
 | Rouge | < 80dB (10s) ou < 85dB | Niveau sonore élevé depuis trop longtemps ou niveau sonore beaucoup trop élevé |
