@@ -21,7 +21,7 @@ La documentation officielle pour installer Home Assistant sur le Raspberry Pi 4B
 
 Une fois démarré, il faut installer manuellement plusieurs modules additionnels à Home Assistant.
 
-### Voici la liste :
+### Voici la liste des modules:
 
 - OpenBorder router Thread
 - Matter
