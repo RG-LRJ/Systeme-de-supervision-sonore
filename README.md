@@ -4,7 +4,8 @@
   </a>
 </div>
 
-# Système de supervision de niveau sonore: Un Outil Ludique de Sensibilisation au Bruit
+# Système de supervision de niveau sonore:
+Un Outil Ludique de Sensibilisation au Bruit
 
 La commune de La Roche-Jaudy à imaginé et mis en place un système de supervision sonore lumineu et audio.
 Le système est conçu pour visualiser le niveau de bruit en temps réel dans la cantine scolaire.
