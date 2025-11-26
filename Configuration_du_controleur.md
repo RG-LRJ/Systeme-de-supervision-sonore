@@ -32,3 +32,10 @@ Une fois démarré, il faut installer manuellement plusieurs modules additionnel
 
 Une fois le controleur et les modules installés, il faut appairer les bandeau LED et les capteurs sonores.
 Pour se faire, il faut installer l'application Home Assistant sur votre Smartphone indispensable pour l'appairage des capteurs Matter.
+
+## Creation de templates
+
+Pour faire fonctionner le système correctement, il est important de calculer la valeur moyenne des capteurs pour avoir un niveau sonore global de la pièce, mais il est également indispensable de gérer une éventuelle déconnection d'un capteur. Pour se faire, on va créer un template nommé Capteur Sonore Global qui sera la référence pour gérer les déclenchements en fonction du niveau sonore mesuré.
+
+Dans la cantine de La Roche-Jaudy, ce capteur gobal calcul le niveau sonore moyen à partir des 3 valeurs les plus elevées remontées par les 4 capteurs que comporte le système. 
+Par ailleurs, pour éviter toute défaillance ou valeur incohérente, ce capteur écarte toute valeur ayant été transmise depuis plus de 7 secondes. Ce template va également un peut plus loin dans la gestion des capteurs hors ligne, car la moyenne se calcul uniquement avec des capteurs en ligne, s'il n'est reste plus qu'un seul de connecté, le système continuera de fonctionner avec ce seul capteur. Enfin, dans l'éventualité qu'il ne reste plus aucun capteur en ligne, un automatisme fera passé le bandeau LED en Bleu afin de signaler un problème de fonctionnement.
