@@ -31,6 +31,7 @@ Cette liste correspond au matériel que nous avons acheté pour équiper la cant
 - **4 alimentations USB Type-C** - [[lien](https://www.gotronic.fr/art-alimentation-usb-type-c-30732.htm)]
 - **4 détecteurs de bruit Grove 101020023** - [[lien](https://www.gotronic.fr/art-detecteur-de-bruit-grove-101020023-18971.htm)]
   - (Prévoir du matériel de soudure à étain)
+  - Projet pour assembler et programmer le capteur [[lien]](https://github.com/RG-LRJ/Capteur-Sonore)
 
 ### Audio
 
