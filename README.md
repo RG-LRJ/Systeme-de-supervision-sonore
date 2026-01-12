@@ -6,18 +6,30 @@
 
 # Système de supervision de niveau sonore: <br>Un Outil Ludique de Sensibilisation au Bruit
 
-La commune de La Roche-Jaudy à imaginé et mis en place un système de supervision sonore lumineu et audio.
+La commune de La Roche-Jaudy a imaginé et mis en place un système de supervision sonore lumineux et audio.
 Le système est conçu pour visualiser le niveau de bruit en temps réel dans la cantine scolaire.
-Ce dispositif est également sonorisé pour permetre de diffuser un message audio au delà d'un certains seuil.
+Ce dispositif est également sonorisé pour permettre de diffuser un message audio au-delà d'un certain seuil.
+
+⚠️ Il est important de comprendre que ce système ne peut fonctionner seul sans avoir au préalable effectué un travail de diminution des bruits extérieurs.
+
+À La Roche-Jaudy, voici ce que nous avons fait :
+- Changé le revêtement du sol
+- Installé des panneaux phoniques
+- Installé des rideaux pour absorber encore plus les bruits
+- Changé les verres
+- Changé les pichets
+- Changé les assiettes
+
+Sans ce travail amont pour réduire au maximum les nuisances sonores, le système de supervision sonore LED ne serait pas efficace.
 
 Le système fonctionne ainsi :
 
 | Couleur de la LED | Niveau sonore | Signification du Niveau Sonore |
 |-------------------|---------------|--------------------------------|
-| Vert | > 80dB | Niveau sonore calme / acceptable |
-| Orange | < 80dB |  Niveau sonore élevé | 
-| Rouge | < 80dB (10s) ou < 85dB | Niveau sonore élevé depuis trop longtemps ou niveau sonore beaucoup trop élevé |
-| Message Vocal | < 80dB (10s) ou < 85dB | Message audio diffusé : "Pourriez-vous bien faire moins de bruit ? Merci." |
+| Vert | < 80dB | Niveau sonore calme / acceptable |
+| Orange | > 80dB |  Niveau sonore élevé | 
+| Rouge | > 80dB (15s) ou > 85dB | Niveau sonore élevé depuis trop longtemps ou niveau sonore beaucoup trop élevé |
+| Message Vocal | > 80dB (15s) ou > 85dB | Message audio diffusé : "Pourriez-vous bien faire moins de bruit ? Merci." |
 
 ## Dans Quel But a-t-il Été Installé ?
 

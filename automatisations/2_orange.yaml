@@ -1,0 +1,54 @@
+alias: 2 - Orange
+description: ""
+triggers:
+  - trigger: numeric_state
+    entity_id:
+      - sensor.capteur_sonore_global
+    above: input_number.seuil_sonore_bas
+    for:
+      hours: 0
+      minutes: 0
+      seconds: 3
+conditions: []
+actions:
+  - sequence:
+      - action: light.turn_on
+        metadata: {}
+        data:
+          rgb_color:
+            - 255
+            - 170
+            - 40
+        target:
+          entity_id: light.bandeau_led
+      - delay:
+          hours: 0
+          minutes: 0
+          seconds: 0
+          milliseconds: 500
+        enabled: true
+      - action: light.turn_on
+        metadata: {}
+        data:
+          rgb_color:
+            - 255
+            - 170
+            - 40
+        target:
+          entity_id: light.bandeau_led
+      - delay:
+          hours: 0
+          minutes: 0
+          seconds: 0
+          milliseconds: 500
+        enabled: true
+      - action: light.turn_on
+        metadata: {}
+        data:
+          rgb_color:
+            - 255
+            - 170
+            - 40
+        target:
+          entity_id: light.bandeau_led
+mode: restart
