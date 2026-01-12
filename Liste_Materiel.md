@@ -2,16 +2,13 @@
 
 ## Liste du matériel nécessaire
 
-Cette liste correspond au matériel que nous avons acheté pour équiper la cantine de La Roche-Jaudy. Les liens des sites internet sur lesquels nous avons commandé le matériel est présent uniquement à titre indicatif afin de retrouver les références exacts. Il ne s'agit en aucun cas de publicité.
+Cette liste correspond au matériel que nous avons acheté pour équiper la cantine de La Roche-Jaudy. Les liens des sites internet sur lesquels nous avons commandé le matériel sont présents uniquement à titre indicatif afin de retrouver les références exactes. Il ne s'agit en aucun cas de publicité.
 
 ### Contrôleur principal
 
 - **Raspberry Pi 4B (8GB)** - [[lien](https://www.gotronic.fr/art-kit-raspberry-pi-4-b-kit-pi4-8-38591.htm)]
   - Pi 4B car sortie audio Jack 3.5
   - 8GB de RAM pour une pérennité dans le temps
-- **Dongle USB Zigbee 3.0 NABU CASA** - [[lien](https://www.domadoo.fr/fr/produits-zigbee/7188-nabu-casa-dongle-usb-zigbee-30-connect-zbt-1-pour-home-assistant-0860011789710.html)]
-  - Pour ajouter le support du protocole Matter Thread (capteurs)
-  - Le support de Matter désactivera le Zigbee de ce Dongle
 - **SONOFF - Clé USB Zigbee 3.0** - [[lien](https://www.domadoo.fr/fr/dongle-zigbee/6315-sonoff-cle-usb-zigbee-30-antenne-externe-v2-6920075777659.html)]
   - Pour gérer le Zigbee (contrôleurs LED)
 
@@ -27,11 +24,9 @@ Cette liste correspond au matériel que nous avons acheté pour équiper la cant
 
 ### Capteurs
 
-- **4 modules Arduino Nano Matter** - [[lien](https://www.gotronic.fr/art-arduino-nano-matter-38856.htm)]
 - **4 alimentations USB Type-C** - [[lien](https://www.gotronic.fr/art-alimentation-usb-type-c-30732.htm)]
-- **4 détecteurs de bruit Grove 101020023** - [[lien](https://www.gotronic.fr/art-detecteur-de-bruit-grove-101020023-18971.htm)]
-  - Assembler et programmer le capteur [[lien]](https://github.com/RG-LRJ/Capteur-Sonore)
-  - (Prévoir du matériel de soudure à étain)
+- **4 modules Atom Echo C008-C** - [[lien](https://www.gotronic.fr/art-module-atom-echo-c008-c-32198.htm)]
+  - Reprogrammer le capteur avec ce sketch ESPHome [[lien]](https://github.com/RG-LRJ/Systeme-de-supervision-sonore/blob/main/Capteur_dB.yaml)
 
 ### Audio
 

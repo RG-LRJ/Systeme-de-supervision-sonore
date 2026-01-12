@@ -1,0 +1,29 @@
+{% set sensors = [
+  'sensor.capteurdb_1_niveau_sonore',
+  'sensor.capteurdb_2_niveau_sonore',
+  'sensor.capteurdb_3_niveau_sonore',
+  'sensor.capteurdb_4_niveau_sonore'
+] %}
+{% set now = as_timestamp(now()) %}
+{% set valid_vals = namespace(values=[]) %}
+
+{% for sensor in sensors %}
+  {% set sensor_state = states[sensor.split('.')[0]][sensor.split('.')[1]] %}
+  {% set last_updated = as_timestamp(sensor_state.last_updated) %}
+  {% if (now - last_updated) < 7 %}
+    {% set valid_vals.values = valid_vals.values + [states(sensor) | float(0)] %}
+  {% endif %}
+{% endfor %}
+
+{% set count = valid_vals.values | length %}
+{% if count >= 3 %}
+  {% set sorted = valid_vals.values | sort %}
+  {% set top3 = sorted[-3:] %}
+  {{ (top3 | sum / top3 | length) | round(2) }}
+{% elif count == 2 %}
+  {{ ((valid_vals.values[0] + valid_vals.values[1]) / 2) | round(2) }}
+{% elif count == 1 %}
+  {{ valid_vals.values[0] | round(2) }}
+{% else %}
+  unavailable
+{% endif %}

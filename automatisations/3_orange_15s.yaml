@@ -1,0 +1,66 @@
+alias: Orange 10s
+description: ""
+triggers:
+  - trigger: state
+    entity_id:
+      - sensor.couleur_bandeau_led
+    from:
+      - vert
+      - rouge
+    to:
+      - orange
+    for:
+      hours: 0
+      minutes: 0
+      seconds: 15
+conditions: []
+actions:
+  - sequence:
+      - action: light.turn_on
+        metadata: {}
+        data:
+          rgb_color:
+            - 255
+            - 20
+            - 20
+        target:
+          entity_id: light.bandeau_led
+      - delay:
+          hours: 0
+          minutes: 0
+          seconds: 0
+          milliseconds: 500
+        enabled: true
+      - action: light.turn_on
+        metadata: {}
+        data:
+          rgb_color:
+            - 255
+            - 20
+            - 20
+        target:
+          entity_id: light.bandeau_led
+      - action: media_player.play_media
+        target:
+          entity_id: media_player.music_player_daemon
+        data:
+          media:
+            media_content_id: >-
+              media-source://media_source/local/mpd/media/moins_de_bruit_10dB.mp3
+            media_content_type: audio/mpeg
+            metadata:
+              title: moins_de_bruit_10dB.mp3
+              thumbnail: null
+              media_class: music
+              children_media_class: null
+              navigateIds:
+                - {}
+                - media_content_type: app
+                  media_content_id: media-source://media_source
+                - media_content_type: ""
+                  media_content_id: media-source://media_source/local/mpd
+                - media_content_type: ""
+                  media_content_id: media-source://media_source/local/mpd/media
+              browse_entity_id: media_player.music_player_daemon
+        enabled: true
+mode: restart

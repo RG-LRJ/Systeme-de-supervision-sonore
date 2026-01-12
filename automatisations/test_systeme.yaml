@@ -1,0 +1,29 @@
+alias: Test Démarrage OK
+description: ""
+triggers:
+  - trigger: numeric_state
+    entity_id:
+      - sensor.capteur_sonore_global
+    above: 75
+conditions:
+  - condition: state
+    entity_id: input_text.systeme
+    state:
+      - TEST
+actions:
+  - action: input_text.set_value
+    metadata: {}
+    data:
+      value: OK
+    target:
+      entity_id: input_text.systeme
+  - action: light.turn_on
+    metadata: {}
+    data:
+      rgb_color:
+        - 85
+        - 255
+        - 15
+    target:
+      entity_id: light.bandeau_led
+mode: single

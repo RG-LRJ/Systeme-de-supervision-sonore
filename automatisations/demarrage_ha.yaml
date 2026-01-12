@@ -1,0 +1,58 @@
+alias: Démarrage Home Assistant
+description: ""
+triggers:
+  - trigger: homeassistant
+    event: start
+conditions: []
+actions:
+  - sequence:
+      - action: input_text.set_value
+        metadata: {}
+        data:
+          value: INIT
+        target:
+          entity_id: input_text.systeme
+      - delay:
+          hours: 0
+          minutes: 1
+          seconds: 0
+          milliseconds: 0
+      - action: light.turn_on
+        metadata: {}
+        data:
+          rgb_color:
+            - 0
+            - 128
+            - 255
+          brightness_step_pct: 100
+        target:
+          entity_id: light.bandeau_led
+      - action: input_text.set_value
+        metadata: {}
+        data:
+          value: TEST
+        target:
+          entity_id: input_text.systeme
+      - action: media_player.play_media
+        target:
+          entity_id: media_player.music_player_daemon
+        data:
+          media:
+            media_content_id: media-source://media_source/local/mpd/media/Sound_Test.mp3
+            media_content_type: audio/mpeg
+            metadata:
+              title: Sound_Test.mp3
+              thumbnail: null
+              media_class: music
+              children_media_class: null
+              navigateIds:
+                - {}
+                - media_content_type: app
+                  media_content_id: media-source://media_source
+                - media_content_type: ""
+                  media_content_id: media-source://media_source/local/mpd
+                - media_content_type: ""
+                  media_content_id: media-source://media_source/local/mpd/media
+              browse_entity_id: media_player.music_player_daemon
+        enabled: true
+mode: single

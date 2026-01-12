@@ -1,0 +1,12 @@
+{% set rgb = state_attr('light.led_1', 'rgb_color') %}
+{% if rgb == (85, 255, 16) %}
+  vert
+{% elif rgb == (255, 171, 43) %}
+  orange
+{% elif rgb == (255, 25, 25) %}
+  rouge
+{% elif rgb == (7, 131, 255) %}
+  bleu
+{% else %}
+  inconnu
+{% endif %}

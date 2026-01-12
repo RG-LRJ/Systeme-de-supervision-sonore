@@ -1,0 +1,38 @@
+alias: Test Systeme KO
+description: ""
+triggers:
+  - trigger: state
+    entity_id:
+      - input_text.systeme
+    to:
+      - TEST
+    from:
+      - INIT
+conditions: []
+actions:
+  - delay:
+      hours: 0
+      minutes: 0
+      seconds: 10
+      milliseconds: 0
+  - choose:
+      - conditions:
+          - condition: state
+            entity_id: input_text.systeme
+            state:
+              - TEST
+        sequence:
+          - action: light.turn_on
+            metadata: {}
+            data:
+              rgb_color:
+                - 255
+                - 0
+                - 255
+              brightness_step_pct: 100
+            target:
+              entity_id: light.bandeau_led
+          - action: hassio.host_reboot
+            metadata: {}
+            data: {}
+mode: single
