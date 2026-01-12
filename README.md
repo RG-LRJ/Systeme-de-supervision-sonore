@@ -18,9 +18,13 @@ Ce dispositif est également sonorisé pour permettre de diffuser un message aud
 - Changé le revêtement du sol
 - Installé des panneaux phoniques
 - Installé des rideaux pour absorber encore plus les bruits
-- Changé les verres
-- Changé les pichets
+- Changé les verres (lilitouch) et pichets (liliroc) en matériaux naturels
+
+  - UGAP, ZAC de la Fleuriyae, 5 bd Ampère, CS70013 44470 Carquefou ugapdirect@ugap.fr
+
 - Changé les assiettes
+
+  - Entreprise "Quiet", 27 allée des petits rois, 33400 Talence, hello@getquiet.co
 
 Sans ce travail amont pour réduire au maximum les nuisances sonores, le système de supervision sonore LED ne serait pas efficace.
 
