@@ -4,7 +4,9 @@
   </a>
 </div>
 
-# Système de supervision de niveau sonore: <br>Un Outil Ludique de Sensibilisation au Bruit
+# Système de supervision de niveau sonore
+
+## Un Outil Ludique de Sensibilisation au Bruit
 
 La commune de La Roche-Jaudy a imaginé et mis en place un système de supervision sonore lumineux et audio.
 Le système est conçu pour visualiser le niveau de bruit en temps réel dans la cantine scolaire.
@@ -22,7 +24,12 @@ Ce dispositif est également sonorisé pour permettre de diffuser un message aud
 
 Sans ce travail amont pour réduire au maximum les nuisances sonores, le système de supervision sonore LED ne serait pas efficace.
 
-Le système fonctionne ainsi :
+Si vous souhaitez étudier ou installer ce système, voici 2 liens qui vous donneront la liste du matériel nécessaire ainsi que les explications d'installation et de configuration.
+
+- [Liste du matériel](https://github.com/RG-LRJ/Systeme-de-supervision-sonore/blob/main/Liste_Materiel.md)
+- [Documentation de configuration](https://github.com/RG-LRJ/Systeme-de-supervision-sonore/blob/main/Configuration_du_controleur.md)
+
+Fonctionnement du système :
 
 | Couleur de la LED | Niveau sonore | Signification du Niveau Sonore |
 |-------------------|---------------|--------------------------------|
