@@ -26,7 +26,7 @@ Ce dispositif est également sonorisé pour permettre de diffuser un message aud
 
   - Entreprise "Quiet", 27 allée des petits rois, 33400 Talence, hello@getquiet.co
 
-Sans ce travail amont pour réduire au maximum les nuisances sonores, le système de supervision sonore LED ne serait pas efficace.
+Sans ce travail en amont pour réduire au maximum les nuisances sonores, le système de supervision sonore LED ne serait pas efficace.
 
 Si vous souhaitez étudier ou installer ce système, voici 2 liens qui vous donneront la liste du matériel nécessaire ainsi que les explications d'installation et de configuration.
 
