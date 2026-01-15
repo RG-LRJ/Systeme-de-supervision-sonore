@@ -1,5 +1,5 @@
 <div align="center">
-  <a href="[La Roche-Jaudy](https://larochejaudy.bzh/)">
+  <a href="https://larochejaudy.bzh/">
     <img src="img/LOGO-la-roche-jaudy.png" alt="La Roche-Jaudy">
   </a>
 </div>
@@ -34,7 +34,7 @@ Si vous souhaitez étudier ou installer ce système, voici 2 liens qui vous donn
 - [Documentation de configuration](https://github.com/RG-LRJ/Systeme-de-supervision-sonore/blob/main/Configuration_du_controleur.md)
 
 L'entreprise **OBM** connaît bien le système si vous souhaitez faire appel à un professionnel pour l'installer.
-- OBM - Clément HENON - [0767160961](tel:+33767160961) - [clement@obm.bzh](mailto:clement@obm.bzh)
+- OBM - Clément HENON - <a href="tel:+33767160961">0767160961</a> - [clement@obm.bzh](mailto:clement@obm.bzh)
 
 Fonctionnement du système :
 

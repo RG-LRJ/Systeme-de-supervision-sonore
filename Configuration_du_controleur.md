@@ -1,7 +1,7 @@
 # Système de supervision sonore
 
 L'entreprise **OBM** connaît bien le système si vous souhaitez faire appel à un professionnel pour l'installer.
-- OBM - Clément HENON - [0767160961](tel:+33767160961) - [clement@obm.bzh](mailto:clement@obm.bzh)
+- OBM - Clément HENON - <a href="tel:+33767160961">0767160961</a> - [clement@obm.bzh](mailto:clement@obm.bzh)
 
 ## Prérequis
 
