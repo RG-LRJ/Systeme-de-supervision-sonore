@@ -1,6 +1,6 @@
 # Système de supervision sonore
 
-Ce document s'adresse aux très bons connaisseurs et aux initiés. Il contient toutes les informations nécessaires pour installer, configurer et mettre en service le système. Aucun support technique n'est proposé au-delà de cette documentation.
+Ce document s'adresse aux initiés. Il contient toutes les informations nécessaires pour installer, configurer et mettre en service le système. Aucun support technique n'est proposé au-delà de cette documentation.
 
 L'entreprise **OBM** connaît bien le système si vous souhaitez faire appel à un professionnel pour l'installer.
 - OBM - Clément HENON - <a href="tel:+33767160961">0767160961</a> - [contact@obm.bzh](mailto:contact@obm.bzh)
