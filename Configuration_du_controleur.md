@@ -1,5 +1,8 @@
 # Système de supervision sonore
 
+L'entreprise **OBM** connaît bien le système si vous souhaitez faire appel à un professionnel pour l'installer.
+- OBM - Clément HENON - [0767160961](tel:+33767160961) - [clement@obm.bzh](mailto:clement@obm.bzh)
+
 ## Prérequis
 
 Un accès internet est indispensable pour installer et configurer le contrôleur. Une fois configuré, cette connexion n'est plus nécessaire. Cependant, la cantine doit disposer d'un réseau WiFi pour le fonctionnement des capteurs.
