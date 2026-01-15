@@ -1,11 +1,14 @@
 # Système de supervision sonore
 
 L'entreprise **OBM** connaît bien le système si vous souhaitez faire appel à un professionnel pour l'installer.
-- OBM - Clément HENON - <a href="tel:+33767160961">0767160961</a> - [clement@obm.bzh](mailto:clement@obm.bzh)
+- OBM - Clément HENON - <a href="tel:+33767160961">0767160961</a> - [contact@obm.bzh](mailto:contact@obm.bzh)
 
 ## Prérequis
 
-Un accès internet est indispensable pour installer et configurer le contrôleur. Une fois configuré, cette connexion n'est plus nécessaire. Cependant, la cantine doit disposer d'un réseau WiFi pour le fonctionnement des capteurs.
+1. Avant de se lancer dans le projet et de commander du matériel, il est important de tout lire.
+2. De bonnes bases en informatique et une bonne connaissance du système Home Assistant sont nécessaires.
+3. Un accès internet est indispensable pour installer et configurer le contrôleur.
+4. La cantine doit disposer d'un réseau WiFi pour le fonctionnement des capteurs, mais la connexion internet n'est plus nécessaire après l'installation.
 
 ## Configuration du contrôleur
 

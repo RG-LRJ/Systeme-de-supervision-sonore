@@ -1,5 +1,8 @@
 # Système de supervision sonore LED
 
+1. Avant de se lancer dans le projet et de commander du matériel, il est important de tout lire.
+2. De bonnes bases en informatique et une bonne connaissance du système Home Assistant sont nécessaires.
+
 ## Liste du matériel nécessaire
 
 Cette liste correspond au matériel que nous avons acheté pour équiper la cantine de La Roche-Jaudy. Les liens des sites internet sur lesquels nous avons commandé le matériel sont présents uniquement à titre indicatif afin de retrouver les références exactes. Il ne s'agit en aucun cas de publicité.

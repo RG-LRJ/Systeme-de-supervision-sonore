@@ -33,8 +33,11 @@ Si vous souhaitez étudier ou installer ce système, voici 2 liens qui vous donn
 - [Liste du matériel](https://github.com/RG-LRJ/Systeme-de-supervision-sonore/blob/main/Liste_Materiel.md)
 - [Documentation de configuration](https://github.com/RG-LRJ/Systeme-de-supervision-sonore/blob/main/Configuration_du_controleur.md)
 
+Avant de se lancer dans le projet et de commander du matériel, il est important de tout lire.
+De bonnes bases en informatique et une bonne connaissance de Home Assistant sont nécessaires.
+
 L'entreprise **OBM** connaît bien le système si vous souhaitez faire appel à un professionnel pour l'installer.
-- OBM - Clément HENON - <a href="tel:+33767160961">0767160961</a> - [clement@obm.bzh](mailto:clement@obm.bzh)
+- OBM - Clément HENON - <a href="tel:+33767160961">0767160961</a> - [contact@obm.bzh](mailto:contact@obm.bzh)
 
 Fonctionnement du système :
 
